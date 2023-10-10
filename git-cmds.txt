@@ -1,0 +1,31 @@
+node version - 16.16.0
+
+
+- git config --global user.email "nrasool030@gmail.com"
+- git config --global user.name "nayabrasoolsb"
+- git password -- global user.password "Nayab@123"
+
+- git init
+
+- git add <fileName> => to stage
+- git add .  => to add all changed files
+
+- git commit -m "<messege>" => to commit
+- git remote add origin <repo link> => to add a repo to folder
+- git push origin <branchName> => to push into a certain branch
+
+- git checkout -b <branch name> => to create branch name
+- git checkout <branch name> => to change branch
+
+- git restore --staged <file name> => to unstage
+- git reset HEAD~1 => to uncommit
+
+- git stash => to move files to stash
+- git stash pop => to get stashed files back
+
+- git config
+- git pull
+- git log
+- git diff
+- git branch
+- git remote
