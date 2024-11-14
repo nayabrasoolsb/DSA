@@ -47,12 +47,12 @@ class HashTable {
     }
     return undefined;
   }
-  toString(){
-    let str = ""
+  toString() {
+    let str = "";
     for (const bucket of this.table) {
-      if(bucket){
+      if (bucket) {
         for (const pair of bucket) {
-          str+=`${pair[0]}==> ${pair[1]}, `;
+          str += `${pair[0]}==> ${pair[1]}, `;
         }
       }
     }
@@ -67,5 +67,5 @@ h1.delete("df");
 h1.set("age", 22);
 // h1.delete("age")
 console.log(h1.get("age"));
-console.log(h1.table)
+console.log(h1.table);
 console.log(h1.toString());

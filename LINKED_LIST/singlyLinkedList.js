@@ -67,7 +67,7 @@ class SinglyLinkedList {
         prev = prev.next;
       }
       prev.next = null;
-      this.tail = null;
+      this.tail = prev;
     }
     this.size--;
   }

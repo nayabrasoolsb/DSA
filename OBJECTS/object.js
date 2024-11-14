@@ -10,15 +10,15 @@ let obj = {
   "graduation year": 2021,
 };
 
-// console.log(obj.myName);
-// console.log(obj["myName"]);
-// console.log(obj["graduation year"]);
+// console.log(obj.myName); // rasool
+// console.log(obj["myName"]);// rasool
+// console.log(obj["graduation year"]); // 2021
 obj.salary = 10_000_000;
 obj["empId"] = 43343;
 
 delete obj["salary"];
 // console.log(obj);
-// console.log(obj.password);
+// console.log(obj.password); // undefined
 let arr = [1, 2, 3, 4, 5, "nayab"];
-console.log(arr.indexOf("nayab"));
+console.log(arr.indexOf("nayab")); // 5
 arr.sort()
